@@ -3,13 +3,13 @@
 void main()
 {
     int count=0;
-long long j;
+long long i;
 printf("Enter the number : ");
-scanf("%lld",&j);
-while(j!=0)
+scanf("%lld",&i);
+while(i!=0)
 {
 count++;
-j=j/10;
+i=i/10;
 }
 printf("The count of the number is %d",count);
 getch();
